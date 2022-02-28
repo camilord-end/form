@@ -1,0 +1,37 @@
+body {
+  content: '';
+  margin: 0;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-color: #160d27;
+}
+h1 {
+  margin-top: 1em;
+}
+h1,p,.form-label {
+  color: azure;
+  text-shadow: lightblue;
+}
+.clue{
+  color: rgb(212, 208, 208);
+}
+#number-label,#select-text,.textarea{
+  font-size: 1.5em;
+  color: azure;
+}
+.form-check {
+  font-size: 1em;
+  color: black;
+}
+
+.container-lg {
+  background-color: #bca4e7bd;
+  padding-top: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 1em;
+  border-radius: 10px;
+}
